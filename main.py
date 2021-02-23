@@ -36,7 +36,7 @@ entry = tkinter.Entry(width=50)
 
 def start():
     entry.place(x=265, y=450)
-    window.after(6000, submit)
+    window.after(60000, submit)
 
 
 def submit():
